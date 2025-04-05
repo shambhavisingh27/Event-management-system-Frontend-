@@ -1,0 +1,57 @@
+.home-container {
+    background: rgb(36, 2, 46);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background: linear-gradient(to right, purple, lightpurple);
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-btn {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .nav-btn:hover {
+    background: white;
+    color: purple;
+  }
+  
+  .title {
+    font-size: 6rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 50px;
+  }
+  
+  .subtitle {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(159, 32, 157);
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-style: italic;
+    color: rgb(248, 164, 248);
+  }
+  

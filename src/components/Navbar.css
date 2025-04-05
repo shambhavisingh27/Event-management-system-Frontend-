@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgb(36, 2, 46);
+  }
+  
+  .nav-box {
+    display: flex;
+    gap: 30px;
+    background-color: rgb(50, 10, 70);
+    padding: 10px 30px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    align-items: center;
+  }
+  
+  .nav-item {
+    color: rgb(245, 107, 255);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    min-width: 120px; /* Ensures equal width for all items */
+  }
+  
+  .nav-item:hover {
+    background-color: rgb(204, 53, 250);
+    color: rgb(75, 6, 88);
+  }
+  

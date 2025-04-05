@@ -1,0 +1,63 @@
+/* Ensure the first page takes the full width */
+body {
+  background-color: #0a0f24;
+  font-family: Arial, sans-serif;
+  text-align:center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Keep the main website content full width */
+.main-container {
+  width: 100vw; /* Make sure it spans full width */
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* Center only the login form */
+.login-container {
+  width: 100%;
+  max-width: 400px; /* Restrict width */
+  margin: 10% auto; /* Center it */
+  padding: 20px;
+  text-align: center;
+  background: rgba(10, 20, 50, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+h2 {
+  color: #ff00ff;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+/* Ensure inputs and buttons align */
+input, button {
+  width: 80%;
+  padding: 12px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 5px;
+  display: block;
+}
+
+input {
+  background: #1e2953;
+  color: white;
+  text-align: center;
+}
+
+button {
+  background: linear-gradient(45deg, #ff00ff, #00ffff);
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #00ffff, #ff00ff);
+  color: white;
+}
