@@ -35,17 +35,17 @@ const EventList = ({ events = [], setEvents, user }) => {
               <br />
               <span>Attendees: {event.attendees?.length || 0}</span>
               
-              {/* RSVP Button for Normal Users */}
+             
               {user.role === "user" && !event.attendees?.includes(user.name) && (
                 <button onClick={() => handleRSVP(event.id)}>RSVP</button>
               )}
   
-              {/* Delete Button for Admins */}
+              
               {user.role === "admin" && (
                 <button onClick={() => handleDelete(event.id)}>Delete</button>
               )}
   
-              {/* Show Attendees List Only If There Are Attendees */}
+              
               {event.attendees?.length > 0 && (
                 <p>Attendees: {event.attendees.join(", ")}</p>
               )}

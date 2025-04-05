@@ -1,4 +1,4 @@
-/* Ensure the first page takes the full width */
+
 body {
   background-color: #0a0f24;
   font-family: Arial, sans-serif;
@@ -8,18 +8,18 @@ body {
   padding: 0;
 }
 
-/* Keep the main website content full width */
+
 .main-container {
-  width: 100vw; /* Make sure it spans full width */
+  width: 100vw; 
   text-align: center;
   padding: 50px 0;
 }
 
-/* Center only the login form */
+
 .login-container {
   width: 100%;
-  max-width: 400px; /* Restrict width */
-  margin: 10% auto; /* Center it */
+  max-width: 400px; 
+  margin: 10% auto; 
   padding: 20px;
   text-align: center;
   background: rgba(10, 20, 50, 0.9);
@@ -33,7 +33,7 @@ h2 {
 }
 
 
-/* Ensure inputs and buttons align */
+
 input, button {
   width: 80%;
   padding: 12px;
